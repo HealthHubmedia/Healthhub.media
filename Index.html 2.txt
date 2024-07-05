@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthHub Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            margin: 10px 0;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .services, .testimonials, .case-studies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .service, .testimonial, .case-study {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transform Your Health and Wellness Brand with HealthHub Media</h1>
+        <p>Expert Social Media Marketing to Boost Your Reach and Engage Your Audience</p>
+        <a href="#contact" class="btn">Get Started Today</a>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>HealthHub Media is dedicated to helping health and wellness brands thrive in the digital space. With our tailored social media marketing strategies, we ensure your message reaches the right audience and creates a lasting impact.</p>
+            <img src="your-team-image.jpg" alt="HealthHub Media Team" style="width: 100%; height: auto;">
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Social Media Management</h3>
+                <p>Comprehensive management of your social media profiles to keep your audience engaged and informed.</p>
+            </div>
+            <div class="service">
+                <h3>Content Creation</h3>
+                <p>High-quality content that resonates with your audience and promotes your brand values.</p>
+            </div>
+            <div class="service">
+                <h3>Influencer Marketing</h3>
+                <p>Partnering with influencers to enhance your brand’s credibility and reach.</p>
+            </div>
+            <div class="service">
+                <h3>Paid Advertising</h3>
+                <p>Strategic ad campaigns to maximize your visibility and ROI.</p>
+            </div>
+            <div class="service">
+                <h3>Analytics & Reporting</h3>
+                <p>Detailed insights and reports to track your performance and optimize your strategy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"HealthHub Media transformed our social media presence. Their strategies are top-notch!" - Client Name</p>
+            </div>
+            <div class="testimonial">
+                <p>"We saw a significant increase in engagement thanks to HealthHub Media." - Client Name</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="case-studies">
+        <div class="container">
+            <h2>Case Studies</h2>
+            <div class="case-study">
+                <p>How we helped [Brand Name] increase their follower count by 50% in 3 months.</p>
+            </div>
+            <div class="case-study">
+                <p>Boosting engagement for [Brand Name] with our targeted social media strategy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://forms.gle/your-google-form-link" method="post">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" required></textarea><br>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <p>Address: Jahuri, Talma Jalpaiguri, Pin - 735121</p>
+            <p>Email: jd886251@gmail.com</p>
+            <p>Phone: +91 7477868170, +91 6297707872</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HealthHub Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>
